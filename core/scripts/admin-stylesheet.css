@@ -1,0 +1,36 @@
+/*
+ * wink admin stylesheet for added elements into admin panel.
+ */
+
+.wink-icons a {
+    text-decoration: none;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.fw-option-type-number {
+    width: 100%;
+    max-width: 100%;
+}
+
+.fw-backend-side-tabs .fw-settings-form-header h2 {
+    font-weight: bold !important;
+}
+
+.fw-backend-side-tabs .fw-settings-form-header h2:before {
+    font-family: FontAwesome;
+    content: '\f085';
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.box-width {
+    width: 100% !important;
+}
+
+#fw-backend-option-fw-option-social_icon .fw-inner.fw-pull-left {
+    float: none !important;
+}
